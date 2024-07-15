@@ -56,4 +56,8 @@ const Page = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Page
+=======
+export default Page
+>>>>>>> 4910d939d170cb1e99d7db0c5c47537d2c3833cc
