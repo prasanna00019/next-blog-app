@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 import { toast,ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-const page = () => {
+const Page = () => {
     const [image, setimage] = useState(false)
     const[authImg,setauthImg]=useState(false);
     const [data, setdata] = useState({
@@ -96,4 +96,4 @@ const onSubmitHandler=async(e)=>{
   )
 }
 
-export default page
+export default Page
