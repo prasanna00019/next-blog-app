@@ -25,7 +25,7 @@ const Header = () => {
         <div className='flex justify-between items-center'>
           <Image src={assets.logo} width={180} alt='' className='w-[130px] sm:w-auto'/>
           <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-solid  border-black shadow-[-7px_7px_0px_gray]'>Get Started
-            <Image src={assets.arrow}/>
+            <Image src={assets.arrow} alt=''/>
           </button>
         </div>
         {/* {console.log(window.location.href)} */}
